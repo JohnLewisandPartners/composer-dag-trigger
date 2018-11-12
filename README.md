@@ -16,7 +16,7 @@ your-project-id@appspot.gserviceaccount.com \
 ## Usage
 
 ```
-  const composer-trigger-dag = require('composer-trigger-dag');  
+  const composerTriggerDag = require('@johnlewisandpartners/composer-dag-trigger');
 
   exports.triggerDag = function triggerDag(event, callback) {
     const DAG_NAME = 'my_dag';
@@ -38,7 +38,7 @@ your-project-id@appspot.gserviceaccount.com \
         callback,
    };
 
-   composer-trigger-dag.triggerDag(triggerDagParams);
+   composerTriggerDag.triggerDag(triggerDagParams);
   }
 ```
 DAG_NAME should be the name of the dag you want to trigger.   
