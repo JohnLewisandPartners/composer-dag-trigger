@@ -20,6 +20,7 @@ your-project-id@appspot.gserviceaccount.com \
 
   exports.triggerDag = function triggerDag(event, callback) {
     const DAG_NAME = 'my_dag';
+    const CURRENT_DATE = new Date();
     const runId = `my-trigger-run_${CURRENT_DATE.toISOString()}`;
     const data = {
         data_to_pass: 'test_data'
