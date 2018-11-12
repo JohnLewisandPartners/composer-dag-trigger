@@ -1,0 +1,28 @@
+{
+  "name": "@johnlewisandpartners/composer-dag-trigger",
+  "version": "1.0.0",
+  "description": "Module that makes it easy to trigger a dag on GCP composer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "author": "Anthony Brown <anthony.brown@johnlewis.co.uk>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnLewisandPartners/composer-dag-trigger.git"
+  },
+  "dependencies": {
+    "request": "2.88.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-mocha": "5.1.0",
+    "eslint-plugin-react": "7.10.0"
+  }
+}
