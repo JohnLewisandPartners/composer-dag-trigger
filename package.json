@@ -1,6 +1,6 @@
 {
   "name": "@johnlewisandpartners/composer-dag-trigger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Module that makes it easy to trigger a dag on GCP composer",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "request": "2.88.0",
-    "request-promise": "4.2.2"
+    "request-promise": "4.2.2",
+    "lodash": "4.17.*",
+    "js-yaml": "3.13.*"
   },
   "devDependencies": {
     "eslint": "5.3.0",
