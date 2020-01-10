@@ -16,7 +16,7 @@
     "request": "2.88.0",
     "request-promise": "4.2.2",
     "lodash": "4.17.*",
-    "js-yaml": "3.13.*"
+    "js-yaml": ">=3.13.1"
   },
   "devDependencies": {
     "eslint": "5.3.0",
@@ -25,7 +25,7 @@
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-mocha": "5.1.0",
-    "eslint-plugin-react": "7.10.0"
+    "eslint-plugin-react": "7.10.0",
     "eslint-utils": ">=1.4.1"
   }
 }
