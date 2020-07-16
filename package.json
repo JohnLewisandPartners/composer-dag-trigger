@@ -15,7 +15,7 @@
   "dependencies": {
     "request": "2.88.0",
     "request-promise": "4.2.2",
-    "lodash": "4.17.12",
+    "lodash": "4.17.19",
     "js-yaml": ">=3.13.1"
   },
   "devDependencies": {
